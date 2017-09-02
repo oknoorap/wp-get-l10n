@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "xo": "^0.18.2"
+  },
+  "ava": {
+    "files": [
+      "test.js"
+    ]
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "dependencies": {
+    "php-parser": "^2.0.6"
+  }
+}
