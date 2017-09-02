@@ -20,5 +20,21 @@
   },
   "dependencies": {
     "php-parser": "^2.0.6"
-  }
+  },
+  "name": "wp-get-l10n",
+  "description": "> Extract WordPress Localization Text.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknoorap/wp-get-l10n.git"
+  },
+  "keywords": [
+    "wordpress",
+    "l1on"
+  ],
+  "author": "oknoorap",
+  "bugs": {
+    "url": "https://github.com/oknoorap/wp-get-l10n/issues"
+  },
+  "homepage": "https://github.com/oknoorap/wp-get-l10n#readme"
 }
